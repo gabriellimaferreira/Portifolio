@@ -1,0 +1,17 @@
+.hobbies{
+    background-color: rgba(238, 240, 241, 0.641);
+    border-radius: 15px;
+   
+}
+.hobbies__title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.hobbies__line{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

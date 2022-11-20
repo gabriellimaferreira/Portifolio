@@ -1,0 +1,131 @@
+@media (min-width: 0px) and (max-width: 700px){
+    .menu{
+        display: flex;
+        
+    }
+    .menu header img, h3{
+        display: none;
+    }
+    .menu nav{
+        display: none;
+    }
+
+    .title__div{
+        display: flex;
+        flex-direction: column;
+    }
+    .title__div .title__profile{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    .title__container .title__bio{
+        font-size: 18px;
+        text-align: center;
+    }
+    .title__subsection{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 25px;
+    }
+    .title__network{
+        display: flex;
+        font-size: 15px;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .about__container{
+        font-size: 16px;
+        padding-top: 0;
+    }
+    .about__container h3{
+        display: flex;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .skills__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .academic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .academic__courses{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .experience{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .experience__info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .experience__img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+    .experience__title{
+        font-size: 20px;
+    }
+    .experiencia__botao--repo {
+        width: 80px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .experiencia__botao--demo{
+        width: 80px;
+        font-size: 12px;
+    }
+    .formcontato{
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+    .formcontato--esquerda{
+        display: none;
+
+    }
+    .formcontato__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .formcontato__form{
+        display: flex;
+        margin-left: 70px;
+    }
+}

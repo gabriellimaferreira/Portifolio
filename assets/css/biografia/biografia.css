@@ -1,0 +1,59 @@
+/*Sessão Title*/
+
+.title{
+    clear: both;
+    margin-top: 100px;
+    
+}
+.title__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.title__div .title__profile{
+    width: 268px;
+    height: 268px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+.title__container{
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    margin-top: 15px;
+    justify-content: flex-start;
+    
+}
+.title__container h2{
+    color: white;
+}
+.title__container h3{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    font-style: normal;
+    color: white;
+    
+}
+.title__network{
+   display: flex;
+   padding: 0;
+    
+}
+.title__network li{
+    padding-right: 55px;
+    
+}
+.title__network li a:hover{
+    color: rgb(5, 6, 7);
+    font-size: 18px;
+    transition-duration: 0.16s;
+}
+.title__network__item a{
+    color: white;
+}

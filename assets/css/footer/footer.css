@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(5, 126, 78), rgb(25, 144, 173), rgb(30, 53, 167));
+    color: white;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
